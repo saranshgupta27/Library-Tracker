@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Library</title>
+</head>
+
+<body>
+    <div id='main1'>
+    <h1>Library</h1>
+    <img src="https://images.unsplash.com/photo-1536965764833-5971e0abed7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
+
+    <button id=btn onsubmit = "event.preventDefault(); myValidation();">Add Book</button>
+
+<div id=mp>
+    <div id=pop>
+        <form>
+            <label for="title">Title</label>
+            <input id=title type="text" placeholder="Name">
+            
+            <label for="author">Author Name</label>
+            <input id=author type="text" placeholder="Author Name">
+
+            <label for="Pages">Total Pages</label>
+            <input id=pages type="number" placeholder="Total Pages">
+            
+            <div id=cb>
+            <label for="check" id=read>READ</label>
+            <input id=check type="checkbox" placeholder="READ"></div>
+        <button id=ad type="submit">ADD</button>
+        </form>
+
+
+
+    </div>
+</div>
+<div id=container></div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
